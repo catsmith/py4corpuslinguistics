@@ -28,7 +28,5 @@ for i, comment in enumerate(comment_list[1:]):
 
     #7. write the comment to the file
     open(file_path, mode='w', encoding='utf-8').write(comment)
-
-
             
         
